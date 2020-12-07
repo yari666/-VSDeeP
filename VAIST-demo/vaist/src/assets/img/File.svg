@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121.5" height="90.5" viewBox="0 0 121.5 90.5">
+  <defs>
+    <filter id="椭圆_15" x="0" y="74.5" width="120" height="16" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="椭圆_14" x="3" y="77.5" width="114" height="10" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.949"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9b946"/>
+      <stop offset="1" stop-color="#ee6505"/>
+    </linearGradient>
+  </defs>
+  <g id="File" transform="translate(-365.5 -1027)">
+    <g id="组_137" data-name="组 137" transform="translate(-2 30)">
+      <g transform="matrix(1, 0, 0, 1, 367.5, 997)" filter="url(#椭圆_15)">
+        <ellipse id="椭圆_15-2" data-name="椭圆 15" cx="52.5" cy="0.5" rx="52.5" ry="0.5" transform="translate(7.5 80)" fill="rgba(241,241,241,0.88)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 367.5, 997)" filter="url(#椭圆_14)">
+        <ellipse id="椭圆_14-2" data-name="椭圆 14" cx="52.5" cy="0.5" rx="52.5" ry="0.5" transform="translate(7.5 80)" fill="rgba(241,241,241,0.88)"/>
+      </g>
+      <path id="路径_169" data-name="路径 169" d="M2.618,0H34.749l1.19,4.307h66.683a2.77,2.77,0,0,1,2.618,2.9L100.358,67.67a2.77,2.77,0,0,1-2.618,2.9H7.854a2.77,2.77,0,0,1-2.618-2.9L0,2.9A2.77,2.77,0,0,1,2.618,0Z" transform="translate(375 997)" fill="url(#linear-gradient)"/>
+      <path id="路径_168" data-name="路径 168" d="M3,0H118a2.951,2.951,0,0,1,3,2.9l-6,64.77a2.951,2.951,0,0,1-3,2.9H9a2.951,2.951,0,0,1-3-2.9L0,2.9A2.951,2.951,0,0,1,3,0Z" transform="translate(368 1008)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
